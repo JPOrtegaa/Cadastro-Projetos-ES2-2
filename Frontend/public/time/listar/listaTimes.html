@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title id="pageTitle">Lista de Times</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- CSS e JS -->
+    <link rel="stylesheet" href="../../Geral/css/styles.css">
+    <script src="./listaTimes.js" type="module"></script>
+
+  </head>
+
+
+    <body>
+      <div class="barraSuperior">   
+        <div>
+          <a href="/" >
+            <button type="button" class="btn btn-secondary bt">
+              <i class="bi bi-house"></i>
+              Voltar para Dashboard
+            </button>
+          </a> 
+        </div>
+ 
+        <div>
+          <a href="/time/cadastrar">
+            <button type="button" class="btn btn-success bt">
+              <i class="bi bi-plus-circle-fill"></i>
+              Cadastrar Time
+            </button>
+          </a> 
+        </div>
+      </div>
+
+        <div class="divTabela">
+          <table class="table table-hover table-bordered align-middle m-0 text-center">
+            <thead class="table-light">
+              <tr style="width:100%">   
+                  <th style="width:15%;">ID</th>
+                  <th style="width:50%;">Nome</th>
+                  <th style="width:35%;">Opções</th>
+              </tr>
+            </thead>
+  
+            <tbody id="tbodyTime"></tbody>
+          </table>
+        </div>
+
+
+    </body>
+
+    
+</html>
