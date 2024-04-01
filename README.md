@@ -102,9 +102,9 @@ Este projeto é uma aplicação Web full stack desenvolvida para a matéria de E
 | Nome | Tipo |
 | ----------- | ----------- |
 | (PK) idProjeto | INT |
-| nomeProjeto | VARCHAR(45) |
-| nomeCliente | VARCHAR(45) |
-| objetivoProjeto | VARCHAR(45) |
+| nomeProjeto | VARCHAR(100) |
+| nomeCliente | VARCHAR(100) |
+| objetivoProjeto | VARCHAR(500) |
 | dataInicio | DATE |
 | dataTermino | DATE |
 | valorProjeto | FLOAT |
