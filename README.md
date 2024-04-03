@@ -1,4 +1,4 @@
-Link para aplicação hospedada na AWS EC2: http://15.229.172.251:3000/
+Link para aplicação hospedada na AWS EC2: http://3.14.112.222:3000/
 
 # Gerenciador de Projetos Full Stack
 
